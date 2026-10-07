@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Roquefort</title>
+    <link rel="stylesheet" href="buy_roquefort.css">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/502788/payment-card.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <section class="payment">
+        <div class="payment__container">
+            <div class="payment__content">
+                <div class="payment__info">
+                    <img src="https://images.openai.com/static-rsc-4/eaFw1pjsEAh4VmBUcTRU6BNfeS4aiYF4YrD5KSvyq0fHwpO-p08773gdBxpliBpcbNhZzriUhS_g9GTh64iu32TeSGfr4dqBZ6LkErKfY5K_h75Me0Hx6NAZ8wAWF6Sa9VHE9umGs6YKzISSNokpjzO-HP9tIx7_agtxkGqmm7QRICw251QNP9tJY0SQp4m3?purpose=fullsize" class="roquefort__image" alt="Сыр Рокфор">
+                    <h1 class="payment__title">Купить Сыр Рокфор</h1>
+                </div>
+                <div class="payment__details">
+                    <h1 class="payment__product-title">Рокфор</h1>
+                    <p class="payment__price">95 000 сум</p>
+                    <p class="payment__quantity">
+                        Количество:
+                        <span class="count" id="count">1</span>
+                        <button class="quantity__add" id="addBtn">+</button>
+                        <button class="quantity__subtract" id="subBtn">-</button>
+                    </p>
+                    <a class="payment__button" href="#">Купить</a>
+                    <p>Это демонстрационный сайт. Заказ не является настоящим.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="../quantity.js"></script>
+</body>
+</html>

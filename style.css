@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+body{
+    background: #080711;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header{
+    padding-block: 20px;
+    background: #080711;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+[class$="__container"]{
+    max-width: 1069px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list{
+    list-style: none;
+    display: flex;
+    gap: 49px;
+}
+
+.header__list-link{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    transition: opacity 0.2s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header__list-link:hover{
+    opacity: 0.8;
+}
+
+.header__title{
+    font-size: 30px;
+    font-weight: 750;
+}
+
+main{
+    margin-top: 190px;
+    font-family: "Cuprum", sans-serif;
+}
+
+.buy__container{
+    display: flex;
+    gap: 85px;
+}
+
+.roquefort__content,
+.chedder__content,
+.gauda__content{
+    max-width: 300px;
+}
+
+.roquefort__title,
+.chedder__title,
+.gauda__title{
+    font-size: 24px;
+    margin: 10px 0 20px;
+}
+
+.roquefort__desc,
+.chedder__desc,
+.gauda__desc{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.chedder__image,
+.gauda__image,
+.roquefort__image{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.buy__button{
+    color: #ffd643;
+    transition: opacity 0.2s;
+}
+
+.buy__button:hover{
+    opacity: 0.8;
+}
+
+.footer{
+    margin-top: 80px;
+}
+
+.footer__title{
+    margin-bottom: 20px;
+}
+
+.footer__container > p{
+    margin-bottom: 20px;
+}
